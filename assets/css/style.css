@@ -381,3 +381,14 @@ z-index: 999999;
 .icon-welfare:before {
   content: "\66";
 }
+#imageKriti { 
+            background-image: url(../img/kriti2.jpg); 
+        }
+        @media only screen and (max-width: 450px) {
+            h1 {color: white}
+			#imageKriti { 
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../img/events/kriti.png);
+				color: white;
+				background-size: cover;
+            }
+        }
