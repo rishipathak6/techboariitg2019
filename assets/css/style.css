@@ -424,7 +424,7 @@
 
 .card-img-top {
   width: 100%;
-  height: 300px;
+  min-height: 300px;
   overflow: hidden;
   border-top-left-radius: calc(.25rem - 0);
   border-top-right-radius: calc(.25rem - 0)
